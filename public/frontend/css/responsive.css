@@ -1,0 +1,36 @@
+/*		Default Layout: 992px.*/
+
+
+
+/*		Tablet Layout: 768px.
+		Inherits styles from: Default Layout.
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header_text h2{
+		font-size:40px;
+	}
+	
+	
+	
+}
+
+/*		Mobile Layout: 320px.
+		Inherits styles from: Default Layout.
+*/
+
+@media only screen and (max-width: 767px) {
+	.header_text h2{
+		font-size:18px;
+	}
+}
+
+/*		Wide Mobile Layout: 480px.
+		Inherits styles from: Default Layout, Mobile Layout.
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header_text h2{
+		font-size:30px;
+	}
+}
